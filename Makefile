@@ -9,7 +9,7 @@ TARGET = hello
 all: $(TARGET)
 
 $(TARGET): $(TARGET).c
-        ${CC} $(CFLAGS) -o $(TARGET) $(LDFLAGS)  $(TARGET).c
+	${CC} $(CFLAGS) -o $(TARGET) $(LDFLAGS)  $(TARGET).c
 
 clean:
-        rm  -f $(TARGET)
+	rm  -f $(TARGET)
